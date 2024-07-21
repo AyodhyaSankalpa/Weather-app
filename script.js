@@ -6,7 +6,7 @@ const error404 = document.querySelector('.not-found');
 const cityHide = document.querySelector('.city-hide');
 
 search.addEventListener('click', () => {
-    const APIKey = 'Enter_Your_APIKey_Hear';
+    const APIKey = 'Enter_Your_APIKey_Hear'; //you can creat it using OpenWeatherMap API website
     const city = document.querySelector('.search-box input').value;
 
     if (city === '')
